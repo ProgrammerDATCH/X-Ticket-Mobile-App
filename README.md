@@ -45,3 +45,11 @@ X-Ticket aims to revolutionize the event ticketing industry by leveraging techno
 ## Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page] if you want to contribute.
+
+## Build APP
+
+- `eas build --profile androidApk --platform android` 
+- `eas build --profile iosDemo --platform ios`
+
+## Owner
+BAHATI Pierre
