@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# X-Ticket Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+X-Ticket is a revolutionary digital platform for buying, selling, and reselling event tickets, developed by BAHATI. This mobile app provides users with a seamless and secure ticketing experience.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Blockchain-based ticket authentication
+- Streamlined purchasing process
+- Safe and reliable reselling platform
+- Exclusive ticket offers and promotions
+- Support for niche events and emerging artists
 
-   ```bash
-   npm install
-   ```
+## Technology Stack
 
-2. Start the app
+- React Native
+- Expo
+- Custom components (ThemedText, ThemedView, ParallaxScrollView)
 
-   ```bash
-    npx expo start
-   ```
+## Getting Started
 
-In the output, you'll find options to open the app in a
+To run this project locally:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Clone the repository
+2. Install dependencies with `npm install` or `yarn install`
+3. Run the app using `expo start`
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
+- `AboutScreen.js`: Main component displaying information about X-Ticket
+- `components/`: Custom components used in the app
+- `assets/images/`: Images used in the app, including the logo
 
-When you're ready, run:
+## Customization
 
-```bash
-npm run reset-project
-```
+The app uses themed components for consistent styling across light and dark modes. You can customize the appearance by modifying the `ThemedText` and `ThemedView` components.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## External Links
 
-## Learn more
+The app provides a link to the X-Ticket website for more detailed information.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Vision
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+X-Ticket aims to revolutionize the event ticketing industry by leveraging technology to create trust, simplicity, and accessibility. We're not just a ticketing platform; we're your gateway to unforgettable experiences.
 
-## Join the community
+## Contributing
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page] if you want to contribute.
